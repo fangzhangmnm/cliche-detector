@@ -1,6 +1,6 @@
 [中文](README.md) | [English](README.en.md)
 
-# AI Writing Cliché Detector
+# AI Cliché Detector
 
 > Your novel is so cliché, it reads like an AI wrote it
 
