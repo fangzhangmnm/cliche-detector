@@ -1,0 +1,9 @@
+# Archive
+ARCHIVE/
+
+# Python
+__pycache__/
+*.pyc
+
+# Coding Agents
+.claude
