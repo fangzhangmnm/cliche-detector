@@ -366,14 +366,14 @@ def main():
 examples:
   python cliche_detector.py input.txt
   python cliche_detector.py input.txt -o report.html
-  python cliche_detector.py input.txt --model Qwen/Qwen3.5-0.8B-Base --top-k 20
+  python cliche_detector.py input.txt --model Qwen/Qwen3.5-2B-Base --top-k 20
 """,
     )
     parser.add_argument("input", help="Input plaintext file")
     parser.add_argument("-o", "--output", default=None,
                         help="Output HTML file (default: <input>.html)")
-    parser.add_argument("--model", default="Qwen/Qwen3.5-0.8B-Base",
-                        help="HuggingFace model ID (default: Qwen/Qwen3.5-0.8B-Base)")
+    parser.add_argument("--model", default="Qwen/Qwen3.5-2B-Base",
+                        help="HuggingFace model ID (default: Qwen/Qwen3.5-2B-Base)")
     parser.add_argument("--top-k", type=int, default=10,
                         help="Top-k alternatives to store (default: 10)")
     parser.add_argument("--chunk-size", type=int, default=4096,
